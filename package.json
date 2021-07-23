@@ -1,0 +1,45 @@
+{
+  "name": "ip-address",
+  "version": "0.0.1",
+  "description": "Ip calculator functions",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "webpack",
+    "dev": "webpack serve",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PedigreeTeam/ip-address.git"
+  },
+  "keywords": [
+    "react",
+    "webpack",
+    "d3"
+  ],
+  "author": "PedigreeTeam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PedigreeTeam/ip-address/issues"
+  },
+  "homepage": "https://github.com/PedigreeTeam/ip-address#readme",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@babel/preset-env": "^7.14.8",
+    "@babel/preset-react": "^7.14.5",
+    "babel-loader": "^8.2.2",
+    "html-webpack-plugin": "^5.3.2",
+    "standard": "^16.0.3",
+    "webpack": "^5.46.0",
+    "webpack-cli": "^4.7.2",
+    "webpack-dev-server": "^3.11.2"
+  },
+  "eslintConfig": {
+      "extends": "./node_modules/standard/eslintrc.json"
+  }
+}
